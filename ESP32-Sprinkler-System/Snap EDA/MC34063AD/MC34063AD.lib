@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MC34063AD
+#
+DEF MC34063AD U 0 40 Y Y 1 L N
+F0 "U" -700 639 50 H V L BNN
+F1 "MC34063AD" -700 -757 50 H V L BNN
+F2 "SOIC127P599X175-8N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -700 -600 700 600 0 0 16 f
+X COMPTR_NEG_IN 5 -900 300 200 R 40 40 0 0 I 
+X DRVR_C 8 -900 200 200 R 40 40 0 0 I 
+X IPK 7 -900 -100 200 R 40 40 0 0 B 
+X VCC 6 900 500 200 L 40 40 0 0 W 
+X CT 3 900 300 200 L 40 40 0 0 O 
+X SWITCH_B 2 900 200 200 L 40 40 0 0 O 
+X SWITCH_C 1 900 100 200 L 40 40 0 0 O 
+X GND 4 900 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
