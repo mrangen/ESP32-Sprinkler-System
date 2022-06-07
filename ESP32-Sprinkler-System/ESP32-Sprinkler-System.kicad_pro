@@ -483,7 +483,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -524,6 +524,10 @@
     [
       "c1b11207-7c0a-49b3-a41d-2fe677d5f3b8",
       ""
+    ],
+    [
+      "6b0ebe9a-dba3-4ff6-b17b-f63084468561",
+      "Solenoid_Drivers"
     ]
   ],
   "text_variables": {}
