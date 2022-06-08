@@ -2,4 +2,6 @@
   (lib (name "ESP32-WROOM-32E__16MB_")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/ESP32-WROOM-32E__16MB_")(options "")(descr ""))
   (lib (name "MC34063AD")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/MC34063AD")(options "")(descr ""))
   (lib (name "MCP1416T-E_OT")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/MCP1416T-E_OT")(options "")(descr ""))
+  (lib (name "TPS5450DDAR")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/TPS5450DDAR")(options "")(descr ""))
+  (lib (name "CH340C")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/CH340C")(options "")(descr ""))
 )

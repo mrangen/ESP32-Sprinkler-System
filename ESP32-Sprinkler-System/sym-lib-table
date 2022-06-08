@@ -2,4 +2,6 @@
   (lib (name "ESP32-WROOM-32E__16MB_")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/ESP32-WROOM-32E__16MB_/ESP32-WROOM-32E__16MB_.lib")(options "")(descr ""))
   (lib (name "MCP1416T-E_OT")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/MCP1416T-E_OT/MCP1416T-E_OT.lib")(options "")(descr ""))
   (lib (name "MC34063AD")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/MC34063AD/MC34063AD.lib")(options "")(descr ""))
+  (lib (name "TPS5450DDAR")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/TPS5450DDAR/TPS5450DDAR.lib")(options "")(descr ""))
+  (lib (name "CH340C")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/CH340C/CH340C.lib")(options "")(descr ""))
 )

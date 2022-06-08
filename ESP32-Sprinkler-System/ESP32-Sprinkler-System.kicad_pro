@@ -528,6 +528,10 @@
     [
       "6b0ebe9a-dba3-4ff6-b17b-f63084468561",
       "Solenoid_Drivers"
+    ],
+    [
+      "ec3fafd4-909d-4835-aedc-b77019f5657d",
+      "BuckConverter"
     ]
   ],
   "text_variables": {}
