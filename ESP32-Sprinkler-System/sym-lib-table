@@ -4,4 +4,5 @@
   (lib (name "MC34063AD")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/MC34063AD/MC34063AD.lib")(options "")(descr ""))
   (lib (name "TPS5450DDAR")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/TPS5450DDAR/TPS5450DDAR.lib")(options "")(descr ""))
   (lib (name "CH340C")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/CH340C/CH340C.lib")(options "")(descr ""))
+  (lib (name "MC33152PG")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/MC33152PG/MC33152PG.lib")(options "")(descr ""))
 )

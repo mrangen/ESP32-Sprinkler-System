@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MC33152PG
+#
+DEF MC33152PG U 0 40 Y Y 1 L N
+F0 "U" -211 659 50 H V L BNN
+F1 "MC33152PG" -154 -913 50 H V L BNN
+F2 "DIP254P762X533-8" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "PDIP-8" 0 0 50 H I L BNN "PACKAGE"
+F5 "On Semiconductors" 0 0 50 H I L BNN "SUPPLIER"
+F6 "MC33152PG" 0 0 50 H I L BNN "MPN"
+F7 "9666788" 0 0 50 H I L BNN "OC_FARNELL"
+F8 "45J1167" 0 0 50 H I L BNN "OC_NEWARK"
+DRAW
+S -800 -700 800 500 0 0 16 f
+X GND 3 -1000 300 200 R 40 40 0 0 P 
+X I_A 2 -1000 100 200 R 40 40 0 0 I 
+X I_B 4 -1000 0 200 R 40 40 0 0 I 
+X N.C_2 1 -1000 -200 200 R 40 40 0 0 N 
+X N.C 8 -1000 -300 200 R 40 40 0 0 N 
+X VCC 6 -1000 -500 200 R 40 40 0 0 W 
+X DRIVE_OUTPUT_A 7 1000 300 200 L 40 40 0 0 O 
+X DRIVE_OUTPUT_B 5 1000 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

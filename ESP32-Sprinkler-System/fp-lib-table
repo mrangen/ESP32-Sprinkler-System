@@ -4,4 +4,6 @@
   (lib (name "MCP1416T-E_OT")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/MCP1416T-E_OT")(options "")(descr ""))
   (lib (name "TPS5450DDAR")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/TPS5450DDAR")(options "")(descr ""))
   (lib (name "CH340C")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/CH340C")(options "")(descr ""))
+  (lib (name "MC33152PG")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/MC33152PG")(options "")(descr ""))
+  (lib (name "TBL004-508-02BE-2GY")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/TBL004-508-02BE-2GY")(options "")(descr ""))
 )
