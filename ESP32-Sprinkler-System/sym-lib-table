@@ -5,4 +5,5 @@
   (lib (name "TPS5450DDAR")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/TPS5450DDAR/TPS5450DDAR.lib")(options "")(descr ""))
   (lib (name "CH340C")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/CH340C/CH340C.lib")(options "")(descr ""))
   (lib (name "MC33152PG")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/MC33152PG/MC33152PG.lib")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC-32D")(type "Legacy")(uri "${KIPRJMOD}/Snap EDA/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
 )

@@ -6,4 +6,5 @@
   (lib (name "CH340C")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/CH340C")(options "")(descr ""))
   (lib (name "MC33152PG")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/MC33152PG")(options "")(descr ""))
   (lib (name "TBL004-508-02BE-2GY")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/TBL004-508-02BE-2GY")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC-32D")(type "KiCad")(uri "${KIPRJMOD}/Snap EDA/ESP32-DEVKITC-32D")(options "")(descr ""))
 )
