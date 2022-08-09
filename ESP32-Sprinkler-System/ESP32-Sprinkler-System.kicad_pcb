@@ -63,7 +63,12 @@
       (dielectric_constraints yes)
     )
     (pad_to_mask_clearance 0)
+<<<<<<< Updated upstream
     (aux_axis_origin 58 53)
+=======
+    (aux_axis_origin 58 140)
+    (grid_origin 58 140)
+>>>>>>> Stashed changes
     (pcbplotparams
       (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
@@ -554,6 +559,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${BREADSTICK_USER_LIB}/Breadstick-Library/Shapes/bme280-model-1.snapshot.2/BME280_SENSOR_MODULE_WITH_HEADER.STEP"
+      (offset (xyz 5.5 -7.5 11))
+      (scale (xyz 1.2 1.2 1.2))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2479,6 +2489,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${BREADSTICK_USER_LIB}/Breadstick-Library/Shapes/0.96 - IPS LCD - ST7735S - Alt.stp"
+      (offset (xyz 10 -7.5 13))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
@@ -3708,6 +3723,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${BREADSTICK_USER_LIB}/Breadstick-Library/Shapes/WS2812B LED.stp"
+      (offset (xyz 5.5 -2.5 14))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "TBL004-508-02BE-2GY:CUI_TBL004-508-02BE-2GY" (layer "F.Cu")
@@ -4094,10 +4114,29 @@
   (gr_text "Zone1:IO32" (at 66 77.86) (layer "F.SilkS") (tstamp f6907adf-0c9c-42d2-bfac-7f6e4cea57d1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (dimension (type aligned) (layer "F.Cu") (tstamp d791c4e7-4dcb-475b-93f7-f5d693114dcd)
+    (pts (xy 189 57) (xy 62 57))
+    (height 10)
+    (gr_text "127.0000 mm" (at 125.5 45.2) (layer "F.Cu") (tstamp d791c4e7-4dcb-475b-93f7-f5d693114dcd)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.2) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "F.Cu") (tstamp e31f3217-9a09-4fb9-8719-6b6408377f46)
+    (pts (xy 62 57) (xy 62 136))
+    (height 10)
+    (gr_text "79.0000 mm" (at 50.2 96.5 90) (layer "F.Cu") (tstamp e31f3217-9a09-4fb9-8719-6b6408377f46)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.2) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 5df856b9-9a8f-48e7-a9cf-0fb5088e71e6)
     (pts (xy 189 53) (xy 189 140))
     (height -12.93)
     (gr_text "87.0000 mm" (at 200.78 96.5 90) (layer "Dwgs.User") (tstamp 5df856b9-9a8f-48e7-a9cf-0fb5088e71e6)
+<<<<<<< Updated upstream
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4107,6 +4146,8 @@
     (pts (xy 62 57) (xy 62 136))
     (height 9)
     (gr_text "79.0000 mm" (at 51.85 96.5 90) (layer "Dwgs.User") (tstamp 823bdb72-b3da-47c7-8be1-d919cd2d99f3)
+=======
+>>>>>>> Stashed changes
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4125,6 +4166,7 @@
     (pts (xy 193 136) (xy 58 136))
     (height -11.574)
     (gr_text "135.0000 mm" (at 125.5 146.424) (layer "Dwgs.User") (tstamp a703d97b-9cb7-4b1e-9c8d-5987a55e557d)
+<<<<<<< Updated upstream
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4134,6 +4176,8 @@
     (pts (xy 189 57) (xy 62 57))
     (height 9.999999)
     (gr_text "127.0000 mm" (at 125.5 45.850001) (layer "Dwgs.User") (tstamp b0e67dfa-f869-4758-ba1b-c734f3ef97d6)
+=======
+>>>>>>> Stashed changes
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4148,6 +4192,7 @@
     (format (units 3) (units_format 1) (precision 4))
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
+  (target plus (at 58 140) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp dd47d0fc-c385-42ae-9f2f-5899f1940123))
 
   (segment (start 125.31 117.61) (end 125.551477 117.851477) (width 0.3) (layer "F.Cu") (net 2) (tstamp 0cb8400f-91fc-4354-b1c5-5e1a92e7658e))
   (segment (start 128.146883 120.446883) (end 128.265531 120.565531) (width 0.3) (layer "F.Cu") (net 2) (tstamp 13a629ff-9a7f-4675-811a-ad3f656c9a05))
