@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 0.29)
+    (thickness 1.6)
   )
 
   (paper "USLetter")
@@ -54,7 +54,7 @@
       (layer "F.Paste" (type "Top Solder Paste"))
       (layer "F.Mask" (type "Top Solder Mask") (color "Green") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 1" (type "prepreg") (thickness 0.2) (material "FR4") (epsilon_r 4.6) (loss_tangent 0.02))
+      (layer "dielectric 1" (type "prepreg") (thickness 1.51) (material "FR4") (epsilon_r 4.6) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
       (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
@@ -2486,7 +2486,7 @@
       (rotate (xyz 0 0 0))
     )
     (model "${BREADSTICK_USER_LIB}/Breadstick-Library/Shapes/0.96 - IPS LCD - ST7735S - Alt.stp"
-      (offset (xyz 10 -7.5 13))
+      (offset (xyz 20 -7.5 13))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
@@ -3720,7 +3720,7 @@
       (rotate (xyz 0 0 0))
     )
     (model "${BREADSTICK_USER_LIB}/Breadstick-Library/Shapes/WS2812B LED.stp"
-      (offset (xyz 5.5 -2.5 14))
+      (offset (xyz -5.5 -2.5 14))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
